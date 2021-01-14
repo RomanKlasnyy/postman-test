@@ -16,8 +16,8 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Response time below 10 ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(20);\r",
+							"pm.test(\"Response time below 25 ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(25);\r",
 							"});\r",
 							""
 						],
