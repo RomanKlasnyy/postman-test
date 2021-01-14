@@ -16,7 +16,7 @@ def math_operation():
             num1 = int(request.form['num1'])
             num2 = int(request.form['num2'])
         except ValueError:
-            return render_template('results.html', result='Error! Please, enter numbers only!')
+            return render_template('results.html', result='Error! Please, enter integers only!')
         if operation == 'add':
             r = num1 + num2
             result = f'{str(num1)} + {str(num2)} = {str(r)}'
