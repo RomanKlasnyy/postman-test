@@ -1,2 +1,7 @@
 # postman-test
-A simple way to test your project. Put everything (except Flask-API-test.json file) to a folder, open it with PyCharm, run it (it will locally run the simple calculator made with Flask). Then import the .json file to Postman and run tests.
+
+Simple Flask API (calculator), which you can test using Postman:
+
+  - Download the folder, create venv with packages, given in `requirements.txt`
+  - Open app.py and run it (it runs a local server that can be tested manually)
+  - Import `.json` file to Postman and run the tests (wow, there are 27 in the file!)
